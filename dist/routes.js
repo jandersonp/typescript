@@ -9,8 +9,8 @@ function createCourse(request, response) {
     CreateCourseService_1.default.execute({
         name: "NodeJS",
         duration: 10,
-        educator: "Dani"
+        educator: "Dani",
     });
-    return response.send();
+    return response.json({ Message: "Bem vindo ao mundo Node.js" });
 }
 exports.createCourse = createCourse;
