@@ -1,5 +1,5 @@
 <h3 align="center">
-  Capítulo II - API de locação veícular
+  Capítulo II - API
 </h3>
 
 <h1 align="center">
@@ -8,7 +8,7 @@
 
 ## Sobre o projeto
 
-## API de locação veícular desenvolvida durante o ignite da Rocketseat
+## API desenvolvida durante o ignite da Rocketseat
 
 ## Tecnologias utilizadas
 
@@ -30,7 +30,8 @@ $ git clone https://github.com/jandersonp/typescript && cd typescript
 $ yarn
 
 # Inicializa a aplicação
-$
+$ yarn tsc
+$ node src/server.ts
 
 ```
 
