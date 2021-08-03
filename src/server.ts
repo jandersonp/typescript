@@ -3,6 +3,7 @@ import { createCourse } from "./routes";
 
 const app = express();
 
+/**Rota que chama a criação de curso */
 app.get("/", createCourse);
 
 app.listen(3333, () => {

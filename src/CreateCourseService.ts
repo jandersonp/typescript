@@ -3,7 +3,7 @@ interface Course {
   duration?: number;
   educator: string;
 }
-
+/**Classe de criação de cursos */
 class CreateCourseService {
   execute({ name, duration = 8, educator }: Course) {
     console.log(name, duration, educator);
